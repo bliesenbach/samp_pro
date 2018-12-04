@@ -1,0 +1,13 @@
+<h1>{{title}}</h1>
+<ul>
+  <li>Age:{{age}}</li>
+  <li>Email{{email}}</li>
+  <li>{{address.street}} {{address.city}} {{address.state}}</li>
+</ul>
+
+<h1>Hobbies</h1>
+<ul>
+<button (click)="clickme()">Click me</button>
+<li *ngFor="let hobby of hobbies" >{{hobby}}</li>
+
+</ul>
